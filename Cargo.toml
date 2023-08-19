@@ -28,6 +28,8 @@ default = ["default-tls"]
 # functionality for it.
 default-tls = ["hyper-tls", "native-tls-crate", "__tls", "tokio-native-tls"]
 
+boring = ["default-tls", "native-tls-boring"]
+
 # Enables native-tls specific functionality not available by default.
 native-tls = ["default-tls"]
 native-tls-alpn = ["native-tls", "native-tls-crate/alpn"]
