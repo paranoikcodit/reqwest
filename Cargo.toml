@@ -232,6 +232,11 @@ path = "examples/blocking.rs"
 required-features = ["blocking"]
 
 [[example]]
+name = "boring"
+path = "examples/boring.rs"
+required-features = ["boring"]
+
+[[example]]
 name = "json_dynamic"
 path = "examples/json_dynamic.rs"
 required-features = ["json"]
